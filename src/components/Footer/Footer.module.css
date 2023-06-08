@@ -1,0 +1,220 @@
+h5{
+    font-size: 35px;
+    color: #DBFF00;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    margin:0;
+    padding:0;
+    font-family: 'ModernAntiqua';
+}
+
+.footerContainerAll{
+    height: 53rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/assets/fotter-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footerContainer{
+    height: 85%;
+    width: 91.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerContactCard{
+    height: 32rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #141414;
+    border-radius: 20px;
+}
+
+
+.footerContactGif{
+    height: 21.7rem;
+    width: 40rem;
+    box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 101% auto;
+    background-image: url(/assets/fotter-bg-gif.png);
+    margin-right: 3rem;
+}
+
+
+.footerContactNewsletter{
+    height: 17.3rem;
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 2.3rem;
+    text-align: start;
+}
+
+.footerContactNewsletter>input{
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.4);
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    background-color: #141414;
+}
+
+
+.footerContactNewsletter>p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+
+.email{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.email>input{
+    width: 99%;
+    height: 1.5rem;
+    color: white;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.4);
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    background-color: #141414;
+    margin-bottom: 1.5rem;
+}
+
+.NameSubscribe{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.subscribe>button{
+    cursor: pointer;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.name>input{
+    width: 26.4rem;
+    height: 1.5rem;
+    color: white;
+    border-bottom: 1.5px solid rgba(255, 255, 255, 0.4);
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    background-color: #141414;
+}
+
+.subscribe{
+    align-self:flex-end;
+    height: 36px;
+    width: 113px;
+}
+
+.subscribe>button{
+    height: 100%;
+    width: 100%;
+    background: #DBFF00;
+    border-radius: 30px;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+.footerInformations{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    
+}
+
+.infos{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+.infos>a>p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightskyblue;
+    height: 40px;
+    width: 146px;
+    background: #141414;
+    border-radius: 30px;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.addressSocials{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.addressNumber{
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.addressNumber>p{
+    
+    display: flex;
+    align-self:start;
+}
+
+.address{
+    font-size: 25px;
+    text-align: start;
+}
+
+.Socials{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.contactBox{
+    display: flex;
+    align-items: center;
+}
+
+.contact{
+    margin-right: 1rem ;
+    
+}
+
+.contact>a{
+    color: white;
+    font-weight: 500;
+}

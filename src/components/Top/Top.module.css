@@ -1,0 +1,66 @@
+.topContainer{
+    /* background-color: lightseagreen; */
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    color: #DBFF00;    
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-bottom: 7rem;
+    /* padding-top: 1rem; */
+}
+
+.topCard{
+    height: auto;
+    width: 98%;
+    background-color: #101300;
+    border: solid 0.8px #DBFF00;
+    border-radius: 50px;
+    /* background-color: slategray; */
+}
+.topTitleText{
+    display: flex;
+    align-items: center;
+}
+.topTitleText>h2{
+    font-size: 115px ;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    line-height: 0px;
+}
+.topTitleText>p{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #F7FFC2;
+}
+
+.topList{
+    /* background-color:turquoise; */
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2.5rem;
+    border-top: solid 0.8px #DBFF00;
+    border-bottom: solid 0.8px #DBFF00;
+    font-size: 34px;
+    align-self: flex-start;
+    
+}
+
+.numberTop{
+    font-weight: 200;
+    margin-right: 2.5rem;
+}
+.title{
+    font-weight: 900;
+    color: #F7FFC2;
+    margin-right: 1rem;
+}
+
+.artist{
+    text-transform:lowercase;
+    font-weight: 500;
+}

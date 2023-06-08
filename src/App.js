@@ -1,23 +1,34 @@
 import logo from './logo.svg';
 import './App.css';
+import {Routes, Route} from 'react-router-dom';
+import Nav from './components/Nav';
+import Accueil from './pages/Accueil';
+import Fav from './pages/Fav';
+import About from './pages/about/About';
+import Footer from './components/Footer/Footer';
+import Article from './pages/article/Article';
+import ThemedArticle from './components/ArticleIA/ArticleIA';
+import './fonts/ModernAntiqua-Regular.ttf'
+import ArticleIA from './components/ArticleIA/ArticleIA';
+import ArticleThreeD from './components/ArticleThreeD/ArticleThreeD'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <Nav />
+      <Routes>
+
+        <Route element={<Accueil />} path='/' />
+        <Route element={<About />} path='/about' />
+        <Route element={<Article />} path='/article/:id' />
+        <Route element={<ArticleIA />} path='/articleIA' />
+        <Route element={<ArticleThreeD />} path='/article3D' />
+
+
+
+      </Routes>
+      <Footer />
     </div>
   );
 }

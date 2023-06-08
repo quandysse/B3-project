@@ -1,0 +1,203 @@
+.articlePageContainer{
+    height: auto;
+    width: 100%;
+    background-color: #070707;
+}
+
+.miniature{
+    width: 90%;
+    height: auto;
+    border-radius: 70px;
+    border: 0.5px solid #A6A6A6;
+    margin-bottom: 2.5rem;
+}
+
+.mainInfos{
+    height: auto;
+    width: auto;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    margin-bottom: 2.5rem;
+}
+
+.mainInfosTop{
+    height: 15rem;
+}
+
+.titleTop{
+    display: flex;
+    height: 8rem;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+    align-items: center;
+}
+
+.title{
+    font-size: 115px;
+    color: #DBFF00;
+    font-family: 'ModernAntiqua';
+}
+
+.numberTop{
+    background-color: #1D1D1D;
+    height: auto;
+    font-size: 115px;
+    font-weight: 900;
+    padding: 0.5rem 2.2rem 0.5rem 2.2rem;
+    border-radius: 15px;
+}
+
+.artist{
+    text-align: start;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+.mainInfosBottom{
+    height: 2rem;
+    font-weight: 500;
+    color: #A6A6A6;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0 2.5rem 0 2.5rem;
+    border-top: 1.5px solid #A6A6A6;
+    border-bottom: 1.5px solid #A6A6A6;
+}
+
+.infosAndArticleContainer{
+    height: Auto;
+    width: auto;
+    padding: 0 5rem 0 5rem;
+}
+
+.infosAndArticle{
+    border-top: 1.5px solid #A6A6A6;
+    display: flex;
+}
+
+.credits{
+    width: 31.5%;
+    padding: 0 2.2rem 0 0;
+}
+
+.aboutClip{
+    /* background-color:red; */
+    width: 37%;
+    padding: 0 2.2rem 0 2.2rem;
+}
+.aboutArtist{
+    /* background-color: rebeccapurple; */
+    width: 31.5%;
+    padding: 0 0 0 2.2rem;
+}
+
+.credits>p{
+    border-bottom: 1.5px solid #A6A6A6;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    text-align: start;
+}
+
+.aboutClip>p{
+    border-bottom: 1.5px solid #A6A6A6;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    text-align: start;
+}
+
+.aboutArtist>p{
+    border-bottom: 1.5px solid #A6A6A6;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    text-align: start;
+}
+
+
+
+.imagesContainer{
+    height: 44.7rem;
+    width: auto;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.imagesContainer>h4{
+    font-size: 50px;
+    font-family: 'ModernAntiqua';
+    font-weight: 300;
+    text-align: start;
+    color: #A6A6A6;
+}
+
+.images{
+    border-bottom: 1.5px solid #141414;
+    width: auto;
+    padding-bottom: 5rem;
+}
+
+.image{
+    height: 270px;
+    width: auto;
+    border-radius: 30px;
+    border: 1px solid #414141;
+    background-size: 120%;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.commentaryContainer{
+    height: 19rem;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 5rem 0 5rem;
+}
+
+.commentary{
+    justify-content: space-between;
+    height: 13rem;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.commentary1, .commentary2, .commentary3{
+    width: 448px;
+    height: auto;
+    border-radius: 20px;
+    padding: 0 1.7rem 1.3rem 1.7rem;
+    background-color: #141414;
+}
+
+.nameDate{
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userName{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 0;
+}
+
+.date{
+    font: 14px;
+    color: #A6A6A6;
+}
+
+.textCommentary{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.youtubeCom{
+    color: #A6A6A6;
+    text-align: start;
+}
